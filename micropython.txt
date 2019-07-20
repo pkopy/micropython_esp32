@@ -1,1 +1,2 @@
  response = urequests.post("http://104.248.23.119:5000/login", json={"email":"test@test.pl","password":"kozaczok"})
+ ampy --port COM6 put main.py
